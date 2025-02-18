@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/stage_screen_menu1.rpy", line 1: expected 'label_name_declare' not found.
+    label 
+         ^
+
+Ren'Py Version: Ren'Py 8.3.3.24111502
+Fri Dec 20 19:23:11 2024

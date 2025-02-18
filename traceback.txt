@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/combat_screen_stage1.rpy", line 338, in script
+    $ quick_menu = false
+  File "game/combat_screen_stage1.rpy", line 338, in <module>
+    $ quick_menu = false
+NameError: name 'false' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/combat_screen_stage1.rpy", line 338, in script
+    $ quick_menu = false
+  File "D:\bahan\renpy-8.3.2-sdk\renpy\ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\bahan\renpy-8.3.2-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/combat_screen_stage1.rpy", line 338, in <module>
+    $ quick_menu = false
+NameError: name 'false' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.2.24090902
+Threads of Independence 1.0
+Thu Dec 12 14:24:15 2024
